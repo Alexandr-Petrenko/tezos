@@ -24,6 +24,16 @@
     text-decoration: none;
   }
 
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin: 0;
+  }
+
   #app {
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -43,6 +53,22 @@
 
     &--info {
       justify-content: center;
+    }
+
+    &--main {
+       flex-direction: column;
+       justify-content: center;
+    }
+
+    &--footer {
+      padding: 33px 0;
+      justify-content: space-evenly;
+
+      @media (max-width: 599px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 </style>

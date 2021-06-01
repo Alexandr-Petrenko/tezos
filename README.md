@@ -1,5 +1,7 @@
 # tezos
 
+Demo: https://alexandr-petrenko.github.io/tezos/
+
 ## Project setup
 ```
 npm install

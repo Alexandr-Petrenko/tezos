@@ -179,7 +179,6 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
 
     @media (max-width: 980px) {
       flex-direction: column;

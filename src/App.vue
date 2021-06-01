@@ -62,7 +62,8 @@
 
     &--footer {
       padding: 33px 0;
-      justify-content: space-evenly;
+      justify-content: space-between;
+      align-items: flex-end;
 
       @media (max-width: 599px) {
         flex-direction: column;
